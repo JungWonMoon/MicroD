@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>WEB PORTFOLIO MOON</title>
+<!--[if lt IE 9]>
+<script src="http://ie7-js.googlecode.com/svn/version/2.1(beta4)/IE9.js"></script>
+<![endif]-->
+<!--[if lt IE 9]>
+<script src="js/html5shiv.js"></script>
+<![endif]-->
+<!--[if lt IE 9]>
+<script src="js/css3-mediaqueries.js"></script>
+<![endif]-->
+<link rel="stylesheet" type="text/css" href="css/reset.css">
+<link rel="stylesheet" type="text/css" href="css/layout.css">
+<script src="js/jquery-1.11.0.min.js"></script>
+<script>
+	$(document).ready(function() {
+			  $('.lioncat').display = "";  
+			  $('.lioncat').fadeIn(4000, function() {
+				   // 애니메이션 끝난 뒤 실행할 코드 넣기
+			  });
+			  $('.font').fadeIn(4000, function() {
+				//$('.fi a').css('color','white');
+			  });
+		});
+</script>
+</head>
+<body>
+	<div id="wrap">
+    	<div class="top_menu">
+        	<h1><a href="#"><img src="img/astronomy1.png"></a></h1>
+        </div><!--top_menu-->
+        <div class="main_01">
+            <a href="#"><img src="img/moon_b.png" alt="" ></a>
+            <a href="#"><img class="lioncat" src="img/moon_y.png" style="display:none;" /></a>
+        </div><!--main_01-->
+        <div class="main_02">
+        	<a href="#"><img class="font"src="img/main_font.png"></a>
+        </div><!--main_02-->
+    </div><!--wrap-->
+</body>
+</html>
